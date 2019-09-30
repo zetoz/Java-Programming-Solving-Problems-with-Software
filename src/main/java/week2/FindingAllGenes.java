@@ -75,7 +75,7 @@ public class FindingAllGenes {
         StorageResource store = new StorageResource();
 
         while (true) {
-            // get start position of a codom
+            // get start position of a codom 
             int start = dna.indexOf("atg", endPos);
 
             if (start == -1) {
